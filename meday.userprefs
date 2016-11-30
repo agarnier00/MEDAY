@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="meday/meday.csproj" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.iPad de rsnts" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="meday/Info.plist">
+    <Files>
+      <File FileName="meday/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
