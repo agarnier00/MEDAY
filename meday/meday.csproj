@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{D16C2495-82CB-4766-B8BF-6DD8F664A34C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>meday</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>meday</AssemblyName>
+    <ReleaseVersion>0.9.2</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>true</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>i386</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="BeforeBuild" command="/bin/bash /Volumes/SIDE/Development_tools/Xamarin/scripts/incrementBuild.sh" workingdir="${ProjectDir}" />
+      </CustomCommands>
+    </CustomCommands>
+    <MtouchI18n>
+    </MtouchI18n>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchProfiling>true</MtouchProfiling>
+    <CodesignKey>iPhone Developer: Raphael Santos (AS2J44J8K3)</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchI18n>
+    </MtouchI18n>
+    <IpaPackageName>
+    </IpaPackageName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="BeforeBuild" command="/bin/bash /Volumes/SIDE/Development_tools/Xamarin/scripts/incrementBuild.sh" workingdir="${ProjectDir}" />
+      </CustomCommands>
+    </CustomCommands>
+    <MtouchI18n>
+    </MtouchI18n>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IpaIncludeArtwork>true</IpaIncludeArtwork>
+    <CodesignKey>iPhone Distribution: Centre Hospitalier Universitaire Vaudois (CHUV)</CodesignKey>
+    <CodesignProvision>447b1b52-f1d1-4a2b-b3ff-cf0054718807</CodesignProvision>
+    <BuildIpa>true</BuildIpa>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchI18n>
+    </MtouchI18n>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="BeforeBuild" command="/bin/bash /Volumes/SIDE/Development_tools/Xamarin/scripts/incrementBuild.sh" workingdir="${ProjectDir}" />
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CustomCommands>
+      <CustomCommands>
+        <Command type="BeforeBuild" command="/bin/bash /Volumes/SIDE/Development_tools/Xamarin/scripts/incrementBuild.sh" workingdir="${ProjectDir}" />
+      </CustomCommands>
+    </CustomCommands>
+    <MtouchI18n>
+    </MtouchI18n>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Buttons\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="ActivityCell.cs" />
+    <Compile Include="ActivityCell.designer.cs">
+      <DependentUpon>ActivityCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="Controllers\CurrentViewCtrl.cs" />
+    <Compile Include="Controllers\CurrentViewCtrl.designer.cs">
+      <DependentUpon>CurrentViewCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\HistoryViewCtrl.cs" />
+    <Compile Include="Controllers\HistoryViewCtrl.designer.cs">
+      <DependentUpon>HistoryViewCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\MainViewCtrl.cs" />
+    <Compile Include="Controllers\MainViewCtrl.designer.cs">
+      <DependentUpon>MainViewCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\NextViewCtrl.cs" />
+    <Compile Include="Controllers\NextViewCtrl.designer.cs">
+      <DependentUpon>NextViewCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\SettingsViewCtrl.cs" />
+    <Compile Include="Controllers\SettingsViewCtrl.designer.cs">
+      <DependentUpon>SettingsViewCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buttons\ContextBtn.cs" />
+    <Compile Include="Buttons\ContextBtn.designer.cs">
+      <DependentUpon>ContextBtn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buttons\IssueBtn.cs" />
+    <Compile Include="Buttons\IssueBtn.designer.cs">
+      <DependentUpon>IssueBtn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Buttons\MyButton.cs" />
+    <Compile Include="Buttons\TypeBtn.cs" />
+    <Compile Include="Buttons\TypeBtn.designer.cs">
+      <DependentUpon>TypeBtn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\SendViewCtrl.cs" />
+    <Compile Include="Controllers\SendViewCtrl.designer.cs">
+      <DependentUpon>SendViewCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\Activity.cs" />
+    <Compile Include="Helpers\Code.cs" />
+    <Compile Include="Helpers\MyColors.cs" />
+    <Compile Include="Controllers\EditViewCtrl.cs" />
+    <Compile Include="Controllers\EditViewCtrl.designer.cs">
+      <DependentUpon>EditViewCtrl.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-76%402x.png" />
+    <BundleResource Include="Resources\Icon-76.png" />
+    <BundleResource Include="Resources\Icon-72%402x.png" />
+    <BundleResource Include="Resources\Icon-72.png" />
+    <BundleResource Include="Resources\Icon-Small%402x.png" />
+    <BundleResource Include="Resources\Icon-Small.png" />
+    <BundleResource Include="Resources\Icon-Small-40%402x.png" />
+    <BundleResource Include="Resources\Icon-Small-40.png" />
+    <BundleResource Include="Resources\Icon-Small-50%402x.png" />
+    <BundleResource Include="Resources\Icon-Small-50.png" />
+    <BundleResource Include="Resources\Default-Portrait.png" />
+    <BundleResource Include="Resources\Default-Landscape.png" />
+    <BundleResource Include="Resources\Default-Portrait%402x.png" />
+    <BundleResource Include="Resources\Default-Landscape%402x.png" />
+    <BundleResource Include="..\00_Graphics\01_PNG\Valider.png">
+      <Link>Resources\Valider.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenNormal.png">
+      <Link>Resources\GreenNormal.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenSelected.png">
+      <Link>Resources\GreenSelected.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\RedNormal.png">
+      <Link>Resources\RedNormal.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\RedNormalWide.png">
+      <Link>Resources\RedNormalWide.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\RedSelected.png">
+      <Link>Resources\RedSelected.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\RedSelectedWide.png">
+      <Link>Resources\RedSelectedWide.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenNormalWide.png">
+      <Link>Resources\GreenNormalWide.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenSelectedWide.png">
+      <Link>Resources\GreenSelectedWide.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\Send.png">
+      <Link>Resources\Send.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\Settings.png">
+      <Link>Resources\Settings.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\Line_Horizontal.png">
+      <Link>Resources\Line_Horizontal.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenNormal_N1.png">
+      <Link>Resources\GreenNormal_N1.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenSelected_N1.png">
+      <Link>Resources\GreenSelected_N1.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenNormal_N2.png">
+      <Link>Resources\GreenNormal_N2.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenSelected_N2.png">
+      <Link>Resources\GreenSelected_N2.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenNormal_N3.png">
+      <Link>Resources\GreenNormal_N3.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenNormal_N4.png">
+      <Link>Resources\GreenNormal_N4.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenNormal_N5.png">
+      <Link>Resources\GreenNormal_N5.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenSelected_N3.png">
+      <Link>Resources\GreenSelected_N3.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenSelected_N4.png">
+      <Link>Resources\GreenSelected_N4.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\00_Graphics\01_PNG\GreenSelected_N5.png">
+      <Link>Resources\GreenSelected_N5.png</Link>
+    </BundleResource>
+    <BundleResource Include="..\01_Data\medayV0.9.2.sqlite">
+      <Link>Resources\medayV0.9.2.sqlite</Link>
+    </BundleResource>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="iPad.storyboard" />
+  </ItemGroup>
+</Project>

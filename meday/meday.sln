@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "meday", "meday.csproj", "{D16C2495-82CB-4766-B8BF-6DD8F664A34C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.Release|iPhone.Build.0 = Release|iPhone
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D16C2495-82CB-4766-B8BF-6DD8F664A34C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
