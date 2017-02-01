@@ -1,0 +1,40 @@
+# Version: 9.4.2.27 (cycle6-xi-c6sr2: 58ba2bc)
+# [first argument, ignore] # /Users/rsnts/CHUV/Development/Meday/V1/meday/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.4.2.27/bin/mtouch \
+	--cache \
+	/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	--dev \
+	/Users/rsnts/CHUV/Development/Meday/V1/meday/bin/iPhone/Debug/meday.app \
+	--executable \
+	meday \
+	--debug \
+	--linksdkonly \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.2 \
+	--targetver \
+	8.0 \
+	--abi=armv7 \
+	--symbollist \
+	/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/Mono.Data.Sqlite.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Data.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/mscorlib.dll \
+	--target-framework \
+	"MonoTouch,v1.0" \
+	/Users/rsnts/CHUV/Development/Meday/V1/meday/bin/iPhone/Debug//meday.exe \

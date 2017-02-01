@@ -1,0 +1,9 @@
+/Volumes/SIDE/Development/chuv/Mobile/meday/meday/obj/iPhone/Ad-Hoc/mtouch-cache/Link/System.dll
+/Volumes/SIDE/Development/chuv/Mobile/meday/meday/obj/iPhone/Ad-Hoc/mtouch-cache/Link/System.Transactions.dll
+/Volumes/SIDE/Development/chuv/Mobile/meday/meday/obj/iPhone/Ad-Hoc/mtouch-cache/Link/System.Core.dll
+/Volumes/SIDE/Development/chuv/Mobile/meday/meday/obj/iPhone/Ad-Hoc/mtouch-cache/Link/System.Xml.dll
+/Volumes/SIDE/Development/chuv/Mobile/meday/meday/obj/iPhone/Ad-Hoc/mtouch-cache/Link/System.Data.dll
+/Volumes/SIDE/Development/chuv/Mobile/meday/meday/obj/iPhone/Ad-Hoc/mtouch-cache/Link/Mono.Data.Sqlite.dll
+/Volumes/SIDE/Development/chuv/Mobile/meday/meday/obj/iPhone/Ad-Hoc/mtouch-cache/Link/monotouch.dll
+/Volumes/SIDE/Development/chuv/Mobile/meday/meday/obj/iPhone/Ad-Hoc/mtouch-cache/Link/mscorlib.dll
+/Volumes/SIDE/Development/chuv/Mobile/meday/meday/obj/iPhone/Ad-Hoc/mtouch-cache/Link/meday.exe

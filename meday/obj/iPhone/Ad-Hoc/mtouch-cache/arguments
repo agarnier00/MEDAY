@@ -1,0 +1,32 @@
+# Version: 8.10.1.64 (e6ebd18)
+# [first argument, ignore] # /Volumes/SIDE/Development/chuv/Mobile/meday/meday/bin/iPhone/Ad-Hoc/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.10.1.64/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Volumes/SIDE/Development/chuv/Mobile/meday/meday/obj/iPhone/Ad-Hoc/mtouch-cache \
+	--executable \
+	meday \
+	--nomanifest \
+	--nosign \
+	-dev \
+	/Volumes/SIDE/Development/chuv/Mobile/meday/meday/bin/iPhone/Ad-Hoc/meday.app \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/Mono.Data.Sqlite.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Data.dll \
+	-linksdkonly \
+	-sdk \
+	8.3 \
+	-targetver \
+	8.0 \
+	--abi=armv7 \
+	/Volumes/SIDE/Development/chuv/Mobile/meday/meday/bin/iPhone/Ad-Hoc/meday.exe \

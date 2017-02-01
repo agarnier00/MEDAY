@@ -1,0 +1,10 @@
+/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache/Link/System.dll
+/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache/Link/System.Transactions.dll
+/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache/Link/System.Core.dll
+/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache/Link/System.Xml.dll
+/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache/Link/System.Data.dll
+/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache/Link/Mono.Data.Sqlite.dll
+/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache/Link/System.Numerics.dll
+/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/rsnts/CHUV/Development/Meday/V1/meday/obj/iPhone/Debug/mtouch-cache/Link/meday.exe
